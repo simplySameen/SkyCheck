@@ -9,6 +9,8 @@ SkyCheck is a weather forecast website designed to provide users with accurate a
 - **Dropdown Menu:** Easily find weather information for any city or region.
 - **Interactive Site:** With Hover Features and more.
 
+### Website Screenshots
+
 
 ## Getting Started
 
