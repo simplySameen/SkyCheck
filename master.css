@@ -1,0 +1,219 @@
+/* Importing other stylesheets */
+@import "./components/form.css";
+@import "./utilities.css";
+@import "./typo.css";
+@import "./components/footer.css";
+@import "./components/swiper.css";
+@import "./components/results.css";
+
+.web-wrap {
+    position: relative; /*The position property allows different objects to have different positionings*/
+}
+
+/*CSS code for the background*/
+.web-wrap::before {
+    content: ' ';
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    background-image: url('mntn.jpeg'); /*Background image of website*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/*Title Styling*/
+.web-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem; 
+    color: #ffffff;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*Dropdown Bar*/
+#mySelect {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    margin-top: 60px;
+    position: relative;
+    opacity: 0.8;
+    bottom: -100px;
+    text-align: center;
+    color: #6c757d;
+    font-size: 14px;
+    border-top: 1px solid #e9ecef;
+    background-color: #f8f9fad4; 
+    width: 104%;
+    bottom: -155px;
+    color: #6c757d; 
+}
+
+/*Copyright Footer Hover Settings*/
+footer:hover {
+    color: #343a40; /* Darker grey on hover */
+}
+
+
+.forecast-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(1, 46, 160);
+}
+
+/*7 Day Forecase Cards settings*/
+.forecastCard {
+    background: #fff;
+    opacity: 1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: -170px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.forecastCard:hover {
+    transform: scale(1.05);
+}
+
+.forecastCard img {
+    width: 130px;
+    height: 70px;
+    margin: 10px;
+}
+
+.forecastCard .date,
+.forecastCard .weather,
+.forecastCard .max,
+.forecastCard .min {
+    margin: 5px 0;
+}
+
+/*The subheading below the title settings*/
+.web-subheading {
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    color: rgb(237, 244, 252);
+    text-align: center;
+    text-shadow: 1px 1px black;
+    top: -70px; 
+}
+
+/*The 7Timer text settings*/
+.powered-by {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80%;
+    text-align: center;
+    margin: 10px 0;
+    position: relative;
+    top:-60px;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: linear-gradient(to right, #00b09b, #96c93d); 
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: white;
+    text-shadow: none;
+}
+
+.powered-by:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.powered-by a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.powered-by a:hover {
+    color: rgb(0, 47, 255);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.powered-by a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    z-index: 1;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+/*Rectangle holding all the dropdown menu and title settings*/
+#rectangle {
+    width: 100%;
+    position:relative;
+    background-color: #ffffff, rgba(0, 0, 0, 0.1);
+    opacity: 0.99;
+    border-radius: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:-70px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*Loading Bar Settings*/
+.loading {
+    display: none; /* Hidden by default */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* The z-index ensures it's above other elements */
+}
