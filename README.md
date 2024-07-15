@@ -7,6 +7,8 @@ This is a part of the Coursera Project [Build A Website Using an API, HTML, CSS,
 
 Note: For this project, I used the 7Timer API, a free and accessible weather forecast service that operates without the need for API keys.
 
+<br>
+
 ## Features
 
 - **Current Weather:** Get real-time weather updates for any location.
