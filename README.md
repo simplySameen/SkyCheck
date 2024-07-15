@@ -1,11 +1,13 @@
 # SkyCheck
 
-SkyCheck is a weather forecast website designed to provide users with accurate and up-to-date weather information worldwide. It offers a simple and intuitive interface for easy weather tracking.
+SkyCheck is a weather forecast website designed to provide users with accurate and up-to-date weather information worldwide using the 7Timer API. It offers a simple and intuitive interface for easy weather tracking. This is a part of the Coursera Project [Build A Website Using an API, HTML, CSS, JavaScript, and JSON](https://www.coursera.org/projects/showcase-build-a-website-api-html-javascript-json).
+
+Note: For this project, I used the 7Timer API, a free and accessible weather forecast service that operates without the need for API keys.
 
 ## Features
 
 - **Current Weather:** Get real-time weather updates for any location.
-- **Forecast:** View detailed weather forecasts for the next 7 days.
+- **Forecast:** View detailed weather forecasts including high and low temperatures with visual images for the next 7 days.
 - **Dropdown Menu:** Easily find weather information for any city or region.
 - **Interactive Site:** With Hover Features and more.
 
@@ -14,8 +16,12 @@ SkyCheck is a weather forecast website designed to provide users with accurate a
 ![Website Screenshot 1](https://github.com/user-attachments/assets/d1791c2b-ae0f-444e-a7ab-3cca000d3e9e)
 
 ### Weather Page:
-![Website Screenshot 2](https://github.com/user-attachments/assets/396345e0-c220-4da2-ac5c-6eaa9a800e27)
+![Website Screenshot 2](https://github.com/user-attachments/assets/12dc076b-ffd4-4766-a579-e0bd4aab0aa9)
 
+## Requirements
+- **HTML:** The backbone of the webpage's structure and content.
+- **JavaScript:** Used to interact with the 7Timer API and handle data retrieval.
+- **CSS:** To style the website
 
 ## Getting Started
 
@@ -27,19 +33,27 @@ Ensure you have a modern web browser installed.
 
 ### Installation
 
-Clone the repository:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/skycheck.git
-cd skycheck
 ```
+2. Open the **index.html** file to access the weather forecast webpage
+3. Use the dropdown menu to select your preferred city
+4. Check the weather forecast for the next 7 days in your selected city
 
-### Instructions
+## Feedback
+Feedback, bug reports, and contributions are greatly valued and encouraged. If you have any suggestions for improvement or wish to contribute to this project, please don't hesitate to open an issue or submit a pull request.
 
-1. Copy the entire content above.
-2. Paste it into a new file named `README.md` in the root directory of your SkyCheck project.
-3. Replace `skycheck-logo.png` with your project's actual logo file.
-4. Modify any URLs in the Credits section to reflect your actual data sources.
-5. Customize or expand sections as needed based on your project's specific features and requirements.
+## Contributing
+Contributions are welcome! If you'd like to contribute:
 
-This `README.md` file will help users understand what SkyCheck does, how to install and use it, how to contribute, and where to find more information about the project.
+1. Fork the repository.
+2. Create your feature branch (git checkout -b feature/AmazingFeature).
+3. Commit your changes (git commit -m 'Add some amazing feature').
+4. Push to the branch (git push origin feature/AmazingFeature).
+5. Open a pull request.
+
+##Credits
+- Weather data provided by [7Timer](https://www.7timer.info/doc.php?lang=en#civil)
+
