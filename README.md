@@ -10,7 +10,7 @@ SkyCheck is a weather forecast website designed to provide users with accurate a
 - **Interactive Site:** With Hover Features and more.
 
 ### Website Screenshots
-
+![Website Screenshot 1](https://github.com/user-attachments/assets/75443342-7f62-41f5-9700-30920f8ddb6c)
 
 ## Getting Started
 
