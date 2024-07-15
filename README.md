@@ -25,6 +25,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/yourusername/skycheck.git
 cd skycheck
+```
 
 ### Instructions
 
