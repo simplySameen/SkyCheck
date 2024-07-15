@@ -9,11 +9,12 @@ SkyCheck is a weather forecast website designed to provide users with accurate a
 - **Dropdown Menu:** Easily find weather information for any city or region.
 - **Interactive Site:** With Hover Features and more.
 
-### Website Screenshots
-# Homepage:
+## Website Screenshots
+### Homepage:
 ![Website Screenshot 1](https://github.com/user-attachments/assets/d1791c2b-ae0f-444e-a7ab-3cca000d3e9e)
 
-# Weather Page:
+### Weather Page:
+![Website Screenshot 2](https://github.com/user-attachments/assets/396345e0-c220-4da2-ac5c-6eaa9a800e27)
 
 
 ## Getting Started
