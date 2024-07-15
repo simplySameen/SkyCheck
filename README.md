@@ -5,7 +5,7 @@ This is a part of the Coursera Project [Build A Website Using an API, HTML, CSS,
 
 <br>
 
-Note: For this project, I used the 7Timer API, a free and accessible weather forecast service that operates without the need for API keys. Also added in some more major cities outside of Europe for inclusivity.
+***Note:*** For this project, I used the 7Timer API, a free and accessible weather forecast service that operates without the need for API keys. Also added in some more major cities outside of Europe for inclusivity.
 
 <br>
 
