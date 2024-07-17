@@ -15,6 +15,7 @@ This is a part of the Coursera Project [Build A Website Using an API, HTML, CSS,
 - **Forecast:** View detailed weather forecasts including high and low temperatures with visual images for the next 7 days.
 - **Dropdown Menu:** Easily find weather information for any city or region.
 - **Interactive Site:** With Hover Features and more.
+- **Supports All Screen Types:** Functioning website on all devices
 
 <br>
 
