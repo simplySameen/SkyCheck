@@ -6,7 +6,25 @@
 @import "./components/swiper.css";
 @import "./components/results.css";
 
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .web-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative; /*The position property allows different objects to have different positionings*/
 }
 
@@ -50,18 +68,15 @@
 
 footer {
     font-family: Arial, sans-serif;
-    margin-top: 60px;
     position: relative;
     opacity: 0.8;
-    bottom: -100px;
     text-align: center;
     color: #6c757d;
     font-size: 14px;
     border-top: 1px solid #e9ecef;
     background-color: #f8f9fad4; 
-    width: 104%;
-    bottom: -155px;
-    color: #6c757d; 
+    width: 100%;
+    margin-top: auto; /* Ensures footer stays at the bottom */
 }
 
 /*Copyright Footer Hover Settings*/
@@ -69,13 +84,13 @@ footer:hover {
     color: #343a40; /* Darker grey on hover */
 }
 
-
 .forecast-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(1, 46, 160);
+    padding-bottom: 10px; /* Add space for readability */
 }
 
 /*7 Day Forecase Cards settings*/
@@ -88,7 +103,6 @@ footer:hover {
     width: 150px;
     text-align: center;
     margin: 10px;
-    margin-bottom: -170px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
 }
@@ -187,14 +201,7 @@ footer:hover {
     top:-70px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-}
-
-#container {
+#forecast-container {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
