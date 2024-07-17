@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyCheck Forecast</title> <!-- Website title on browser tab -->
+    <link rel="icon" href="favicon.ico"> <!-- Website .ico icon on browser tab -->
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+
+    <!--Loading Popup and its classification -->
+    <div class="loading">Loading...</div>
+    <div class="web-wrap">
+
+        <!-- All the weather forecast card items and titles inside one whole rectangle that can be adjusted -->
+        <div id="rectangle">
+            <div class="web-content">
+                <h1>SkyCheck</h1>
+            </div>
+
+            <!-- Website Subheading and its classification -->
+            <div class="web-subheading">
+                <h1>Global Weather Forecast</h1>
+            </div>
+
+            <!--Text showing 7Timer Source and its classification-->
+            <h1 class="powered-by">
+                Powered by <a href="https://www.7timer.info/doc.php?lang=en#civil" target="_blank">7Timer</a>
+            </h1>
+        
+            <select id="mySelect">
+               <!-- Dropdown bar and its settings will be taken from the JS code -->
+            </select>
+            
+        
+            <!-- Container for displaying the weather forecast -->
+            <div id="forecastContainer" class="forecast-container">
+                <!-- Forecast items will be taken from the JS code -->
+            </div>
+        </div>
+        
+        <footer>
+            <p class="copyright-text">© Copyright 2024 - Sameen Islam</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript Code Source-->
+    <script src="main.js" type="module"></script>
+</body>
+</html>
